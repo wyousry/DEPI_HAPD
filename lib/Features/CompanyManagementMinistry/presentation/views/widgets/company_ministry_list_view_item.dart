@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, library_private_types_in_public_api, prefer_const_constructors_in_immutables, use_key_in_widget_constructors
 
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class CompanyMinistryListViewItem extends StatefulWidget {
@@ -10,11 +10,10 @@ class CompanyMinistryListViewItem extends StatefulWidget {
     required this.companyDetails,
     required this.onDelete,
   });
-  
+
   final String companyName;
   final String companyDetails;
   final VoidCallback onDelete;
-
 
   @override
   _CompanyMinistryListViewItemState createState() =>

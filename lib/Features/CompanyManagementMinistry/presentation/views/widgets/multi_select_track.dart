@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, library_private_types_in_public_api, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
 
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class MultiSelectTrack extends StatefulWidget {

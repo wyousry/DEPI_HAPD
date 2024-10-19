@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/CompanyManagementMinistry/presentation/views/widgets/companies_ministry_view_body.dart';
+import 'package:depi_hapd/Features/CompanyManagementMinistry/presentation/views/widgets/companies_ministry_view_body.dart';
 import 'package:flutter/material.dart';
 
 class CompaniesMinistryView extends StatelessWidget {
