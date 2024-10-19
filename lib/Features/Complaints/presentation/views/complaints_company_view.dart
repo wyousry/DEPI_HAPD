@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Complaints/presentation/views/widgets/complaints_ministry_company_view_body.dart';
+import 'package:depi_hapd/Features/Complaints/presentation/views/widgets/complaints_ministry_company_view_body.dart';
 import 'package:flutter/material.dart';
 
 class ComplaintsCompanyView extends StatelessWidget {

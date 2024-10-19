@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/register_three_view_body.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/register_three_view_body.dart';
 import 'package:flutter/material.dart';
 
 class RegisterThreeView extends StatelessWidget {

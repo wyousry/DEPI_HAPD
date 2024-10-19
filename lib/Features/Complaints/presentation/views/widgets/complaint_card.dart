@@ -1,7 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, prefer_const_constructors_in_immutables, use_key_in_widget_constructors
 
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
-import 'package:depi_lms/constant.dart';
+
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
+import 'package:depi_hapd/constant.dart';
 import 'package:flutter/material.dart';
 
 class ComplaintCard extends StatelessWidget {
