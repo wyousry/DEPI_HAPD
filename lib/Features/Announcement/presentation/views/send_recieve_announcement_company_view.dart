@@ -1,5 +1,6 @@
-import 'package:depi_lms/Features/Tasks/presentation/views/widgets/send_recieve_view_body.dart';
-import 'package:depi_lms/core/utils/app_router.dart';
+
+import 'package:depi_hapd/Features/Tasks/presentation/views/widgets/send_recieve_view_body.dart';
+import 'package:depi_hapd/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 
 class SendRecieveAnnouncementView extends StatelessWidget {

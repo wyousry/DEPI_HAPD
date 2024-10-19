@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Announcement/presentation/views/widgets/recieve_announcement_student_view_body.dart';
+import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/recieve_announcement_student_view_body.dart';
 import 'package:flutter/material.dart';
 
 class RecieveAnnouncementStudentView extends StatelessWidget {

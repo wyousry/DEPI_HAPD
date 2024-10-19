@@ -1,9 +1,10 @@
-import 'package:depi_lms/Features/Announcement/presentation/views/widgets/announcement_card_list_view.dart';
-import 'package:depi_lms/Features/Announcement/presentation/views/widgets/from_and_subject_announcement.dart';
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/grediant_background.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/app_router.dart';
+
+import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/announcement_card_list_view.dart';
+import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/from_and_subject_announcement.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/grediant_background.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

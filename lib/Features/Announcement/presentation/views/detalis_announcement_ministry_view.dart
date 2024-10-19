@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Announcement/presentation/views/widgets/detalis_announcement_ministry_view_body.dart';
+import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/detalis_announcement_ministry_view_body.dart';
 import 'package:flutter/material.dart';
 
 class DetalisAnnouncementMinistryView extends StatelessWidget {
