@@ -8,7 +8,7 @@ import 'package:go_router/go_router.dart';
 
 class CompaniesMinistryViewBody extends StatelessWidget {
   const CompaniesMinistryViewBody({super.key});
-
+//**      */
   @override
   Widget build(BuildContext context) {
     return GradientBackground(
