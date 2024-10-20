@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/TracksCourses/presentation/views/widgets/courses_student_view_body.dart';
+import 'package:depi_hapd/Features/TracksCourses/presentation/views/widgets/courses_student_view_body.dart';
 import 'package:flutter/material.dart';
 
 class CoursesStudentView extends StatelessWidget {

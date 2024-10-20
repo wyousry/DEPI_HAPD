@@ -1,9 +1,9 @@
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/custom_button.dart';
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/custom_text_field.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
-import 'package:depi_lms/Features/TracksCourses/presentation/views/widgets/custom_alert_dialog.dart';
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_button.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_text_field.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
+import 'package:depi_hapd/Features/TracksCourses/presentation/views/widgets/custom_alert_dialog.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
