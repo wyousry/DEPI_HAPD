@@ -1,5 +1,3 @@
-
-
 import 'package:depi_hapd/Features/Announcement/presentation/views/announcement_minstry_view.dart';
 import 'package:depi_hapd/Features/Announcement/presentation/views/create_announcement_company_view.dart';
 import 'package:depi_hapd/Features/Announcement/presentation/views/create_announcement_ministry_view.dart';
@@ -165,12 +163,51 @@ abstract class AppRouter {
         builder: (context, state) => const RegisterOneView(),
       ),
       GoRoute(
-        path: kRegisterTwoView,
-        builder: (context, state) => const RegisterTwoView(),
-      ),
+          path: kRegisterTwoView,
+          builder: (context, state) {
+            final arabicName = state.uri.queryParameters['arabicName'];
+            final englishName = state.uri.queryParameters['englishName'];
+            final nationalID = state.uri.queryParameters['nationalID'];
+            final dateOfBirth = state.uri.queryParameters['dateOfBirth'];
+            final gender = state.uri.queryParameters['gender'];
+            final government = state.uri.queryParameters['government'];
+
+            return RegisterTwoView(
+              arabicName: arabicName ?? '',
+              englishName: englishName ?? '',
+              nationalID: nationalID ?? '',
+              dateOfBirth: dateOfBirth ?? '',
+              gender: gender ?? '',
+              government: government ?? '',
+            );
+          }),
       GoRoute(
         path: kRegisterThreeView,
-        builder: (context, state) => const RegisterThreeView(),
+        builder: (context, state) {
+          final arabicName = state.uri.queryParameters['arabicName'];
+          final englishName = state.uri.queryParameters['englishName'];
+          final nationalID = state.uri.queryParameters['nationalID'];
+          final dateOfBirth = state.uri.queryParameters['dateOfBirth'];
+          final gender = state.uri.queryParameters['gender'];
+          final government = state.uri.queryParameters['government'];
+          final email = state.uri.queryParameters['email'];
+          final password = state.uri.queryParameters['password'];
+          final phone = state.uri.queryParameters['phone'];
+          final linkedIn = state.uri.queryParameters['linkedIn'];
+
+          return RegisterThreeView(
+            arabicName: arabicName ?? '',
+            englishName: englishName ?? '',
+            nationalID: nationalID ?? '',
+            dateOfBirth: dateOfBirth ?? '',
+            gender: gender ?? '',
+            government: government ?? '',
+            email: email ?? '',
+            password: password ?? '',
+            phone: phone ?? '',
+            linkedIn: linkedIn ?? '',
+          );
+        },
       ),
 
 //Home Feature

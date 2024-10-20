@@ -1,15 +1,13 @@
-
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
 import 'package:depi_hapd/constant.dart';
 import 'package:flutter/material.dart';
-
 
 class CustomTextFormField extends StatelessWidget {
   const CustomTextFormField({
     super.key,
     this.prefixIcon,
     this.suffixIcon,
-    required this.onChanged,
+    this.onChanged,
     this.labelStyle,
     required this.labelText,
     this.obscure = false,
@@ -18,12 +16,13 @@ class CustomTextFormField extends StatelessWidget {
     this.borderRadius,
     this.margin,
     this.padding,
+    this.controller,
   });
 
   // String? hintText;
   final TextStyle? labelStyle;
   final String? labelText;
-
+  final TextEditingController? controller;
   final Function(String)? onChanged;
 
   final bool? obscure;
@@ -49,6 +48,7 @@ class CustomTextFormField extends StatelessWidget {
       padding: padding,
       color: color,
       child: TextFormField(
+        controller: controller,
         obscureText: obscure!,
         onChanged: onChanged,
         style: const TextStyle(

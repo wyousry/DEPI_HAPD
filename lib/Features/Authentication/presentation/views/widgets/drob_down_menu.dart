@@ -1,11 +1,9 @@
-
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
 import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
-
 class DropDownMenu extends StatelessWidget {
-  const DropDownMenu(
+  DropDownMenu(
       {super.key,
       this.width,
       required this.drobDownList,
@@ -17,14 +15,17 @@ class DropDownMenu extends StatelessWidget {
       this.border,
       this.margin,
       this.padding,
-      this.borderRadius, this.textColor});
+      this.borderRadius,
+      this.textColor,
+       this.onSelected});
 
   final int? width;
   final double? height;
   final EdgeInsets? margin, padding;
   final BorderRadius? borderRadius;
   final String hintText;
-  final Color? fillColor, suffixIconColor,textColor;
+  void Function(dynamic)? onSelected;
+  final Color? fillColor, suffixIconColor, textColor;
   final TextStyle? hintStyle;
   final InputBorder? border;
   final List<DropdownMenuEntry> drobDownList;
@@ -37,13 +38,7 @@ class DropDownMenu extends StatelessWidget {
       padding: padding,
       borderRadius: borderRadius,
       child: DropdownMenu(
-        onSelected: (value) {
-          if (value != null) {
-            // setState(() {
-            // m = value;
-            // });
-          }
-        },
+        onSelected: onSelected,
         textStyle: Styles.text18StyleW500.copyWith(color: textColor),
         hintText: hintText,
         inputDecorationTheme: InputDecorationTheme(

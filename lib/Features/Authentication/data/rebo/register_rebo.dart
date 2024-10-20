@@ -2,7 +2,6 @@ import 'package:dartz/dartz.dart';
 import 'package:depi_hapd/Features/Authentication/data/models/register_model.dart';
 import 'package:depi_hapd/core/errors/failures.dart';
 
-
 abstract class RegisterRebo {
   Future<Either<Failures, RegisterModel>> register({
     required String arabicName,
@@ -11,7 +10,7 @@ abstract class RegisterRebo {
     required String dateOfbirth,
     required String gender,
     required String government,
-    required String city,
+    String city,
     required String email,
     required String phone,
     required String linkedIn,

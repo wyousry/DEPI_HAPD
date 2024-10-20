@@ -1,8 +1,8 @@
-
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_button.dart';
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_text_field.dart';
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/grediant_background.dart';
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/logo_image.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/show_snack_bar.dart';
 import 'package:depi_hapd/constant.dart';
 import 'package:depi_hapd/core/utils/app_router.dart';
 import 'package:depi_hapd/core/utils/styles.dart';
@@ -11,9 +11,25 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 
 class RegisterTwoViewBody extends StatelessWidget {
-  const RegisterTwoViewBody({
-    super.key,
-  });
+  RegisterTwoViewBody(
+      {super.key,
+      this.arabicName,
+      this.englishName,
+      this.nationalID,
+      this.dateOfBirth,
+      this.gender,
+      this.government});
+
+  final String? arabicName;
+  final String? englishName;
+  final String? nationalID;
+  final String? dateOfBirth;
+  final String? gender;
+  final String? government;
+  String? email;
+  String? password;
+  String? phone;
+  String? linkedIn;
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +50,9 @@ class RegisterTwoViewBody extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       CustomTextFormField(
-                        onChanged: (v) {},
+                        onChanged: (v) {
+                          email = v;
+                        },
                         prefixIcon: const Icon(
                           Icons.email_outlined,
                           color: kGreenColor,
@@ -46,7 +64,23 @@ class RegisterTwoViewBody extends StatelessWidget {
                       ),
                       const SizedBox(height: 13),
                       CustomTextFormField(
-                        onChanged: (v) {},
+                        onChanged: (v) {
+                          password = v;
+                        },
+                        prefixIcon: const Icon(
+                          Icons.email_outlined,
+                          color: kGreenColor,
+                        ),
+                        labelText: 'Password',
+                        labelStyle: const TextStyle(
+                            color: kGreenColor, fontWeight: FontWeight.w200),
+                        fillColor: kGrey.shade200,
+                      ),
+                      const SizedBox(height: 13),
+                      CustomTextFormField(
+                        onChanged: (v) {
+                          phone = v;
+                        },
                         prefixIcon: const Icon(
                           Icons.phone_outlined,
                           color: kGreenColor,
@@ -58,7 +92,9 @@ class RegisterTwoViewBody extends StatelessWidget {
                       ),
                       const SizedBox(height: 13),
                       CustomTextFormField(
-                        onChanged: (v) {},
+                        onChanged: (v) {
+                          linkedIn = v;
+                        },
                         prefixIcon: const Icon(
                           FontAwesomeIcons.linkedin,
                           color: kGreenColor,
@@ -92,8 +128,31 @@ class RegisterTwoViewBody extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 13.0),
                         child: CustomButton(
                           onTap: () {
-                            GoRouter.of(context)
-                                .push(AppRouter.kRegisterThreeView);
+                            if (arabicName != null &&
+                                arabicName!.isNotEmpty &&
+                                englishName != null &&
+                                englishName!.isNotEmpty &&
+                                nationalID != null &&
+                                nationalID!.isNotEmpty &&
+                                dateOfBirth != null &&
+                                dateOfBirth!.isNotEmpty &&
+                                gender != null &&
+                                gender!.isNotEmpty &&
+                                government != null &&
+                                government!.isNotEmpty &&
+                                email != null &&
+                                email!.isNotEmpty &&
+                                password != null &&
+                                password!.isNotEmpty &&
+                                phone != null &&
+                                phone!.isNotEmpty &&
+                                linkedIn != null &&
+                                linkedIn!.isNotEmpty) {
+                              GoRouter.of(context).push(
+                                  '${AppRouter.kRegisterThreeView}?arabicName=$arabicName&englishName=$englishName&nationalID=$nationalID&dateOfBirth=$dateOfBirth&gender=$gender&government=$government&email=$email&password=$password&phone=$phone&linkedIn=$linkedIn');
+                            } else {
+                              showSnackBar(context, 'Please complete data');
+                            }
                           },
                           text: 'Continue',
                           backgroundColor: kGreenAccentColor,
