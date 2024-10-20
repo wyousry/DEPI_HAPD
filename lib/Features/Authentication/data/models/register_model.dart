@@ -5,7 +5,7 @@ class RegisterModel {
   final String dateOfbirth;
   final String gender;
   final String government;
-  final String city;
+  final String? city;
   final String email;
   final String phone;
   final String linkedIn;
@@ -24,7 +24,7 @@ class RegisterModel {
     required this.dateOfbirth,
     required this.gender,
     required this.government,
-    required this.city,
+    this.city,
     required this.email,
     required this.phone,
     required this.linkedIn,
@@ -47,9 +47,9 @@ class RegisterModel {
       government: jsonData['government'],
       city: jsonData['city'],
       email: jsonData['email'],
+      password: jsonData['password'],
       phone: jsonData['phone'],
       linkedIn: jsonData['linkedIn'],
-      password: jsonData['password'],
       profileImage: jsonData['profileImage'], // Can be null
       university: jsonData['university'],
       faculty: jsonData['faculty'],

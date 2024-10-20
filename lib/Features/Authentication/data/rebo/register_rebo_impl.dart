@@ -17,7 +17,7 @@ class RegisterReboImpl implements RegisterRebo {
       required String dateOfbirth,
       required String gender,
       required String government,
-      required String city,
+      String? city,
       required String email,
       required String phone,
       required String linkedIn,
@@ -79,8 +79,6 @@ class RegisterReboImpl implements RegisterRebo {
     // TODO: implement registerTwo
     throw UnimplementedError();
   }
-
-
 
   // @override
   // Future<Either<Failures, RegisterTwo>> registerTwo(
