@@ -65,7 +65,7 @@ class TasksStudentViewBody extends StatelessWidget {
                             title: "Task 13",
                             date: "25/9/2024",
                             goRouterLink:
-                                '${AppRouter.kSelectStudentTasksGroupTrackCompanyView}?taskName=Task 13&startDate=20/8/2024&deadline=27/8/2024'),
+                                '${AppRouter.kDetailsTasksStudentView}?taskName=Task 13&startDate=20/8/2024&deadline=27/8/2024'),
                       ],
                       onTap: () {
                         GoRouter.of(context).push(
@@ -79,7 +79,7 @@ class TasksStudentViewBody extends StatelessWidget {
                       trailing: true,
                       subTasks: const [
                         SubTaskCard(
-                          title: "Task 4",
+                          title: "Task 5",
                           date: "20/9/2024",
                           goRouterLink:
                               '${AppRouter.kDetailsTasksStudentView}?taskName=Task 4&startDate=20/8/2024&deadline=27/8/2024',
@@ -97,7 +97,7 @@ class TasksStudentViewBody extends StatelessWidget {
                       trailing: true,
                       subTasks: const [
                         SubTaskCard(
-                            title: "Task 6",
+                            title: "Task 8",
                             date: "19/9/2024",
                             goRouterLink:
                                 '${AppRouter.kDetailsTasksStudentView}?taskName=Task 6&startDate=20/8/2024&deadline=27/8/2024'),
@@ -114,7 +114,7 @@ class TasksStudentViewBody extends StatelessWidget {
                       trailing: true,
                       subTasks: const [
                         SubTaskCard(
-                            title: "Task 1",
+                            title: "Task 3",
                             date: "15/9/2024",
                             goRouterLink:
                                 '${AppRouter.kDetailsTasksStudentView}?taskName=Task 1&startDate=20/8/2024&deadline=27/8/2024'),

@@ -54,17 +54,41 @@ class AccountSettingStudentViewBody extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(height: 19),
-                      CustomHeaderWithTextFeild(header: 'Full Name'),
+                      CustomHeaderWithText(
+                        header: 'Full Name',
+                        text:
+                            'Wafaa Yousry Ahmed Kohia                                                          ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Full Name(Arabic)'),
+                      CustomHeaderWithText(
+                        header: 'Full Name(Arabic)',
+                        text:
+                            'وفاء يسري أحمد كوهيه                                                                      ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Gender'),
+                      CustomHeaderWithText(
+                        header: 'Gender',
+                        text:
+                            'Female                                                                                    ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Birth Date'),
+                      CustomHeaderWithText(
+                        header: 'Birth Date',
+                        text:
+                            '9/2/2004                                                                                    ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'National ID'),
+                      CustomHeaderWithText(
+                        header: 'National ID',
+                        text:
+                            '30402091600566                                                               ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Government'),
+                      CustomHeaderWithText(
+                        header: 'Government',
+                        text:
+                            'Gharbia                                                                                    ',
+                      ),
                       SizedBox(height: 14),
                     ],
                   ),
@@ -76,11 +100,23 @@ class AccountSettingStudentViewBody extends StatelessWidget {
                   const Column(
                     children: [
                       SizedBox(height: 19),
-                      CustomHeaderWithTextFeild(header: 'Email'),
+                      CustomHeaderWithText(
+                        header: 'Email',
+                        text:
+                            'Kwhyhwfa@gmail.com                                                          ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Phone'),
+                      CustomHeaderWithText(
+                        header: 'Phone',
+                        text:
+                            '01156374361                                                                          ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Linkedin'),
+                      CustomHeaderWithText(
+                        header: 'Linkedin',
+                        text:
+                            'https://www.linkedin.com/in/وفاء-كوهيه-99546724a',
+                      ),
                       SizedBox(height: 14),
                     ],
                   ),
@@ -92,16 +128,35 @@ class AccountSettingStudentViewBody extends StatelessWidget {
                   const Column(
                     children: [
                       SizedBox(height: 19),
-                      CustomHeaderWithTextFeild(header: 'University'),
+                      CustomHeaderWithText(
+                        header: 'University',
+                        text:
+                            'Al-azhar University                                                          ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'College '),
+                      CustomHeaderWithText(
+                        header: 'College ',
+                        text:
+                            'Engineering                                                                                                 ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Specialization '),
+                      CustomHeaderWithText(
+                        header: 'Specialization ',
+                        text:
+                            'Systems&Computers Engineering                                                          ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(header: 'Appreciation '),
+                      CustomHeaderWithText(
+                        header: 'Appreciation ',
+                        text:
+                            'Very Good                                                                                                                                     ',
+                      ),
                       SizedBox(height: 14),
-                      CustomHeaderWithTextFeild(
-                          header: 'Training Governorate  '),
+                      CustomHeaderWithText(
+                        header: 'Training Governorate  ',
+                        text:
+                            'Cairo                                                                                     ',
+                      ),
                     ],
                   ),
                   const SizedBox(height: 25),
