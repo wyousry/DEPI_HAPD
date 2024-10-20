@@ -21,7 +21,7 @@ class ComplaintsStudentViewBody extends StatelessWidget {
         child: Column(
           children: [
             AppBarListTile(
-              title: 'Create Announcement',
+              title: 'Create Complaint',
               edgeInsets: const EdgeInsets.only(top: 7, bottom: 7, left: 16),
               leading: IconButton(
                   onPressed: () {
@@ -68,7 +68,7 @@ class ComplaintsStudentViewBody extends StatelessWidget {
                             Styles.text22StyleW600.copyWith(color: kWhite),
                         borderRadius: BorderRadius.circular(16),
                         onTap: () {
-                          
+
                           GoRouter.of(context).pop();
                         },
                       ),
