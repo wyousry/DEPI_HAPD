@@ -37,7 +37,7 @@ class CreateAnnouncementViewBody extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    const ToAndSubjectDropDown(
+                    ToAndSubjectDropDown(
                         toDropDownList: const [
                           DropdownMenuEntry(value: 'companies', label: 'Companies'),
                           DropdownMenuEntry(value: 'all_students', label: 'All Students'),
@@ -53,7 +53,9 @@ class CreateAnnouncementViewBody extends StatelessWidget {
                           DropdownMenuEntry(value: 'geography', label: 'Geography'),
                           DropdownMenuEntry(value: 'physics', label: 'Physics'),
                           DropdownMenuEntry(value: 'chemistry', label: 'Chemistry'),
-                        ]
+                        ],
+                      onToChanged: (value) { },
+                      onSubjectChanged: (value) { },
                     ),
                     const SizedBox(height: 25),
                     BodyAnnouncement(

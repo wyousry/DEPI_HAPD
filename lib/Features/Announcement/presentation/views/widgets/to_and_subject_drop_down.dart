@@ -11,7 +11,7 @@ class ToAndSubjectDropDown extends StatelessWidget {
   const ToAndSubjectDropDown({
     super.key,
     required this.toDropDownList,
-    required this.subjectDropDownList,
+    required this.subjectDropDownList, required Null Function(dynamic value) onSubjectChanged, required Null Function(dynamic value) onToChanged,
   });
 
   @override
