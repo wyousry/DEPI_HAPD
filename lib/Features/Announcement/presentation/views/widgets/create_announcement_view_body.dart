@@ -37,7 +37,24 @@ class CreateAnnouncementViewBody extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    const ToAndSubjectDropDown(),
+                    const ToAndSubjectDropDown(
+                        toDropDownList: const [
+                          DropdownMenuEntry(value: 'companies', label: 'Companies'),
+                          DropdownMenuEntry(value: 'all_students', label: 'All Students'),
+                          DropdownMenuEntry(value: 'mobile_app', label: 'Mobile App'),
+                          DropdownMenuEntry(value: 'web_development', label: 'Web Development'),
+                          DropdownMenuEntry(value: 'data_science', label: 'Data Science'),
+                          DropdownMenuEntry(value: 'ai', label: 'AI'),
+                        ],
+                        subjectDropDownList: const [
+                          DropdownMenuEntry(value: 'math', label: 'Math'),
+                          DropdownMenuEntry(value: 'science', label: 'Science'),
+                          DropdownMenuEntry(value: 'history', label: 'History'),
+                          DropdownMenuEntry(value: 'geography', label: 'Geography'),
+                          DropdownMenuEntry(value: 'physics', label: 'Physics'),
+                          DropdownMenuEntry(value: 'chemistry', label: 'Chemistry'),
+                        ]
+                    ),
                     const SizedBox(height: 25),
                     BodyAnnouncement(
                       widget: CustomTextFormField(

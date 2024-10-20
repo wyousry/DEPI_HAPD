@@ -1,4 +1,3 @@
-
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/drob_down_menu.dart';
 import 'package:depi_hapd/constant.dart';
@@ -6,7 +5,14 @@ import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class ToAndSubjectDropDown extends StatelessWidget {
-  const ToAndSubjectDropDown({super.key});
+  final List<DropdownMenuEntry<String>> toDropDownList;
+  final List<DropdownMenuEntry<String>> subjectDropDownList;
+
+  const ToAndSubjectDropDown({
+    super.key,
+    required this.toDropDownList,
+    required this.subjectDropDownList,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -25,14 +31,7 @@ class ToAndSubjectDropDown extends StatelessWidget {
               ),
               const Spacer(),
               DropDownMenu(
-                drobDownList: const [
-                  DropdownMenuEntry(value: 1, label: 'Companies'),
-                  DropdownMenuEntry(value: 2, label: 'All Students'),
-                  DropdownMenuEntry(value: 3, label: 'Mobile App'),
-                  DropdownMenuEntry(value: 4, label: 'Wep Devolopment'),
-                  DropdownMenuEntry(value: 5, label: 'Data Science'),
-                  DropdownMenuEntry(value: 6, label: 'AI'),
-                ],
+                drobDownList: toDropDownList,
                 hintText: 'Select Direction',
                 fillColor: kWhite,
                 borderRadius: BorderRadius.circular(16),
@@ -52,15 +51,8 @@ class ToAndSubjectDropDown extends StatelessWidget {
               ),
               const Spacer(),
               DropDownMenu(
-                drobDownList: const [
-                  DropdownMenuEntry(value: 1, label: 'Companies'),
-                  DropdownMenuEntry(value: 2, label: 'All Students'),
-                  DropdownMenuEntry(value: 3, label: 'Mobile App'),
-                  DropdownMenuEntry(value: 4, label: 'Wep Devolopment'),
-                  DropdownMenuEntry(value: 5, label: 'Data Science'),
-                  DropdownMenuEntry(value: 6, label: 'AI'),
-                ],
-                hintText: 'Select Direction',
+                drobDownList: subjectDropDownList,
+                hintText: 'Select Subject',
                 fillColor: kWhite,
                 borderRadius: BorderRadius.circular(16),
                 hintStyle: Styles.text18StyleW600,

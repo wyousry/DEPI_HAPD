@@ -37,7 +37,16 @@ class ComplaintsStudentViewBody extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    const ToAndSubjectDropDown(),
+                    const ToAndSubjectDropDown(
+                        toDropDownList: const [
+                          DropdownMenuEntry(value: "company", label: 'Company'),
+                          DropdownMenuEntry(value: "ministry", label: 'Ministry')
+                        ],
+                        subjectDropDownList: const [
+                          DropdownMenuEntry(value: "suggestion", label: 'Suggestion'),
+                          DropdownMenuEntry(value: "complaint", label: 'Complaint')
+                        ]
+                    ),
                     const SizedBox(height: 25),
                     BodyAnnouncement(
                       widget: CustomTextFormField(
@@ -59,6 +68,7 @@ class ComplaintsStudentViewBody extends StatelessWidget {
                             Styles.text22StyleW600.copyWith(color: kWhite),
                         borderRadius: BorderRadius.circular(16),
                         onTap: () {
+                          
                           GoRouter.of(context).pop();
                         },
                       ),
