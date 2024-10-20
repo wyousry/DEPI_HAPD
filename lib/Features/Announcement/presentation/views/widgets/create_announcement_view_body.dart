@@ -1,4 +1,3 @@
-
 import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/body_announcement.dart';
 import 'package:depi_hapd/Features/Announcement/presentation/views/widgets/to_and_subject_drop_down.dart';
 import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_button.dart';
@@ -37,23 +36,34 @@ class CreateAnnouncementViewBody extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    const ToAndSubjectDropDown(
-                        toDropDownList: const [
-                          DropdownMenuEntry(value: 'companies', label: 'Companies'),
-                          DropdownMenuEntry(value: 'all_students', label: 'All Students'),
-                          DropdownMenuEntry(value: 'mobile_app', label: 'Mobile App'),
-                          DropdownMenuEntry(value: 'web_development', label: 'Web Development'),
-                          DropdownMenuEntry(value: 'data_science', label: 'Data Science'),
-                          DropdownMenuEntry(value: 'ai', label: 'AI'),
-                        ],
-                        subjectDropDownList: const [
-                          DropdownMenuEntry(value: 'math', label: 'Math'),
-                          DropdownMenuEntry(value: 'science', label: 'Science'),
-                          DropdownMenuEntry(value: 'history', label: 'History'),
-                          DropdownMenuEntry(value: 'geography', label: 'Geography'),
-                          DropdownMenuEntry(value: 'physics', label: 'Physics'),
-                          DropdownMenuEntry(value: 'chemistry', label: 'Chemistry'),
-                        ]
+                    ToAndSubjectDropDown(
+                      toDropDownList: const [
+                        DropdownMenuEntry(
+                            value: 'companies', label: 'Companies'),
+                        DropdownMenuEntry(
+                            value: 'all_students', label: 'All Students'),
+                        DropdownMenuEntry(
+                            value: 'mobile_app', label: 'Mobile App'),
+                        DropdownMenuEntry(
+                            value: 'web_development', label: 'Web Development'),
+                        DropdownMenuEntry(
+                            value: 'data_science', label: 'Data Science'),
+                        DropdownMenuEntry(value: 'ai', label: 'AI'),
+                      ],
+                      subjectDropDownList: const [
+                        DropdownMenuEntry(value: 'math', label: 'Math'),
+                        DropdownMenuEntry(value: 'science', label: 'Science'),
+                        DropdownMenuEntry(value: 'history', label: 'History'),
+                        DropdownMenuEntry(
+                            value: 'geography', label: 'Geography'),
+                        DropdownMenuEntry(value: 'physics', label: 'Physics'),
+                        DropdownMenuEntry(
+                            value: 'chemistry', label: 'Chemistry'),
+                      ],
+                      onToChanged: (value) {},
+                      onSubjectChanged: (value) {},
+                      onSubjectSelected: (value) {},
+                      onToSelected: (value) {},
                     ),
                     const SizedBox(height: 25),
                     BodyAnnouncement(
