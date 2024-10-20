@@ -62,8 +62,6 @@ class CreateAnnouncementViewBody extends StatelessWidget {
                       ],
                       onToChanged: (value) {},
                       onSubjectChanged: (value) {},
-                      onSubjectSelected: (value) {},
-                      onToSelected: (value) {},
                     ),
                     const SizedBox(height: 25),
                     BodyAnnouncement(
