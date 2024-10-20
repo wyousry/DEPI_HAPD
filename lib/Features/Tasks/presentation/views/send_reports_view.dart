@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Tasks/presentation/views/widgets/send_reports_view_body.dart';
+import 'package:depi_hapd/Features/Tasks/presentation/views/widgets/send_reports_view_body.dart';
 import 'package:flutter/material.dart';
 
 class SendReportsView extends StatelessWidget {

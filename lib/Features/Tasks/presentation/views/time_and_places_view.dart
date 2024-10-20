@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Tasks/presentation/views/widgets/time_and_places_view_body.dart';
+import 'package:depi_hapd/Features/Tasks/presentation/views/widgets/time_and_places_view_body.dart';
 import 'package:flutter/material.dart';
 
 class TimeAndPlacesView extends StatelessWidget {
