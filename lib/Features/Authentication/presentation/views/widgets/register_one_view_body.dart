@@ -183,7 +183,8 @@ class RegisterOneViewBody extends StatelessWidget {
                           government != null &&
                           government!.isNotEmpty) {
                         GoRouter.of(context).push(
-                            '${AppRouter.kRegisterTwoView}?arabicName=$arabicName&englishName=$englishName&nationalID=$nationalID&dateOfBirth=$dateOfBirth&gender=$gender&government=$government');
+                          '${AppRouter.kRegisterTwoView}?arabicName=$arabicName&englishName=$englishName&nationalID=$nationalID&dateOfBirth=$dateOfBirth&gender=$gender&government=$government',
+                        );
                       } else {
                         showSnackBar(context, 'Please complete data');
                       }
