@@ -1,5 +1,5 @@
-import 'package:depi_lms/Features/Home/presentation/views/widgets/rounded_progress_bar.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/rounded_progress_bar.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class GroupTrackItem extends StatelessWidget {

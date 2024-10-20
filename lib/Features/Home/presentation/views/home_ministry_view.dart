@@ -1,10 +1,10 @@
-import 'package:depi_lms/Features/Announcement/presentation/views/announcement_minstry_view.dart';
-import 'package:depi_lms/Features/CompanyManagementMinistry/presentation/views/companies_ministry_view.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/curved_nav_bar.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/home_ministry_view_body.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/setting_ministry_view.dart';
-import 'package:depi_lms/Features/TracksCourses/presentation/views/tracks_ministry_view.dart';
-import 'package:depi_lms/constant.dart';
+import 'package:depi_hapd/Features/Announcement/presentation/views/announcement_minstry_view.dart';
+import 'package:depi_hapd/Features/CompanyManagementMinistry/presentation/views/companies_ministry_view.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/curved_nav_bar.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/home_ministry_view_body.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/setting_ministry_view.dart';
+import 'package:depi_hapd/Features/TracksCourses/presentation/views/tracks_ministry_view.dart';
+import 'package:depi_hapd/constant.dart';
 import 'package:flutter/material.dart';
 
 class HomeMinistryView extends StatefulWidget {

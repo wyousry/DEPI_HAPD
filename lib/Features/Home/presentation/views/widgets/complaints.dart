@@ -1,6 +1,6 @@
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/custom_shadow.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class Complaints extends StatelessWidget {

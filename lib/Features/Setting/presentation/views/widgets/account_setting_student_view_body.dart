@@ -1,9 +1,9 @@
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/grediant_background.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/custom_header_with_text_feild.dart';
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/assets.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/grediant_background.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/app_bar_list_tile.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/custom_header_with_text_feild.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/assets.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

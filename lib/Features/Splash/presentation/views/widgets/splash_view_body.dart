@@ -1,6 +1,6 @@
-import 'package:depi_lms/Features/Splash/presentation/views/widgets/sliding_image.dart';
-import 'package:depi_lms/Features/Splash/presentation/views/widgets/sliding_text.dart';
-import 'package:depi_lms/core/utils/app_router.dart';
+import 'package:depi_hapd/Features/Splash/presentation/views/widgets/sliding_image.dart';
+import 'package:depi_hapd/Features/Splash/presentation/views/widgets/sliding_text.dart';
+import 'package:depi_hapd/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

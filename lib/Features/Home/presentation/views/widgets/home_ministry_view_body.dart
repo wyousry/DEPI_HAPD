@@ -1,8 +1,8 @@
-import 'package:depi_lms/Features/Authentication/presentation/views/widgets/grediant_background.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/complaints.dart';
-import 'package:depi_lms/Features/Home/presentation/views/widgets/ministry_groups_tracking_system.dart';
-import 'package:depi_lms/core/utils/app_router.dart';
-import 'package:depi_lms/core/utils/assets.dart';
+import 'package:depi_hapd/Features/Authentication/presentation/views/widgets/grediant_background.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/complaints.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/ministry_groups_tracking_system.dart';
+import 'package:depi_hapd/core/utils/app_router.dart';
+import 'package:depi_hapd/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

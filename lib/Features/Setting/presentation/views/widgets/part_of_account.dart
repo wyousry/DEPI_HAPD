@@ -1,6 +1,6 @@
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/custom_basic_row_in_setting.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/custom_row_down_basic_row_in_setting.dart';
-import 'package:depi_lms/constant.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/custom_basic_row_in_setting.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/custom_row_down_basic_row_in_setting.dart';
+import 'package:depi_hapd/constant.dart';
 import 'package:flutter/material.dart';
 
 class PartOfAccount extends StatelessWidget {

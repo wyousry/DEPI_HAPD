@@ -1,9 +1,9 @@
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/custom_basic_row_in_setting.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/custom_row_down_basic_row_in_setting.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/content_of_alert_dialog_about.dart';
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/content_of_alert_dialog_lan.dart';
-import 'package:depi_lms/Features/TracksCourses/presentation/views/widgets/custom_alert_dialog.dart';
-import 'package:depi_lms/constant.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/custom_basic_row_in_setting.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/custom_row_down_basic_row_in_setting.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/content_of_alert_dialog_about.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/content_of_alert_dialog_lan.dart';
+import 'package:depi_hapd/Features/TracksCourses/presentation/views/widgets/custom_alert_dialog.dart';
+import 'package:depi_hapd/constant.dart';
 import 'package:flutter/material.dart';
 
 class PartOfMore extends StatefulWidget {

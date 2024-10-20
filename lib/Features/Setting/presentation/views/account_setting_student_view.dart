@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/Setting/presentation/views/widgets/account_setting_student_view_body.dart';
+import 'package:depi_hapd/Features/Setting/presentation/views/widgets/account_setting_student_view_body.dart';
 import 'package:flutter/material.dart';
 
 class AccountSettingStudentView extends StatelessWidget {

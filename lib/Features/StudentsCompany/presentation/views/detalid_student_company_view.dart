@@ -1,4 +1,4 @@
-import 'package:depi_lms/Features/StudentsCompany/presentation/views/widgets/detalid_student_company_view_body.dart';
+import 'package:depi_hapd/Features/StudentsCompany/presentation/views/widgets/detalid_student_company_view_body.dart';
 import 'package:flutter/material.dart';
 
 class DetalidStudentCompanyView extends StatelessWidget {

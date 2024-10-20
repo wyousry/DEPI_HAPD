@@ -1,4 +1,4 @@
-import 'package:depi_lms/core/utils/assets.dart';
+import 'package:depi_hapd/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class SlidingImage extends StatelessWidget {

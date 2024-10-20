@@ -1,4 +1,4 @@
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class SlidingText extends StatelessWidget {

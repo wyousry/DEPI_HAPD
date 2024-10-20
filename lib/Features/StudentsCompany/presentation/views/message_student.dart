@@ -1,6 +1,6 @@
-import 'package:depi_lms/Features/StudentsCompany/presentation/views/widgets/appbar.dart';
-import 'package:depi_lms/Features/StudentsCompany/presentation/views/widgets/custom_card1.dart';
-import 'package:depi_lms/Features/StudentsCompany/presentation/views/widgets/custom_card2.dart';
+import 'package:depi_hapd/Features/StudentsCompany/presentation/views/widgets/appbar.dart';
+import 'package:depi_hapd/Features/StudentsCompany/presentation/views/widgets/custom_card1.dart';
+import 'package:depi_hapd/Features/StudentsCompany/presentation/views/widgets/custom_card2.dart';
 import 'package:flutter/material.dart';
 
 class MessageStudentPage extends StatelessWidget {

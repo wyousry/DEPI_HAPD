@@ -1,6 +1,6 @@
-import 'package:depi_lms/Features/Home/presentation/views/widgets/custom_circular_progress_with_label.dart';
-import 'package:depi_lms/constant.dart';
-import 'package:depi_lms/core/utils/styles.dart';
+import 'package:depi_hapd/Features/Home/presentation/views/widgets/custom_circular_progress_with_label.dart';
+import 'package:depi_hapd/constant.dart';
+import 'package:depi_hapd/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class AttendanceTrakingItem extends StatelessWidget {
