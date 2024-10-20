@@ -1,5 +1,3 @@
-
-
 import 'package:depi_hapd/Features/Authentication/data/rebo/register_rebo_impl.dart';
 import 'package:depi_hapd/core/utils/api_service.dart';
 import 'package:dio/dio.dart';
@@ -12,4 +10,3 @@ void setup() {
   getIt.registerSingleton<RegisterReboImpl>(
       RegisterReboImpl(getIt.get<ApiService>()));
 }
- 
